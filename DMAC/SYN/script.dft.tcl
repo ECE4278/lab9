@@ -23,7 +23,7 @@ report_scan_configuration
 
 set test_default_period 100
 set_dft_signal -view exist -type ScanClock -port clk -timing [list 50 100]
-set_dft_signal -view exist -type Reset -port rst_n -active_state 0
+#set_dft_signal -view exist -type Reset -port rst_n -active_state 0
 create_test_protocol
 
 # ---------------------------------------
